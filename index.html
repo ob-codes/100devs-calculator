@@ -15,32 +15,35 @@
 
 		<h1>Basic Calculator</h1>
     <main>
-      <section class="screen"></section>
+      <section>
+        <p class="screen screen-upper">0</p>
+        <p class="screen screen-bottom" id="result">0</p>
+      </section>
 
       <section class="keypad">
         <div class="row row1">
-          <button class="col col1">7</button>
-          <button class="col col2">8</button>
-          <button class="col col3">9</button>
-          <button class="col col4">/</button>
+          <button id="num7" class="col colNumbers">7</button>
+          <button id="num8" class="col colNumbers">8</button>
+          <button id="num9" class="col colNumbers">9</button>
+          <button id="operDivide" class="col col4">/</button>
         </div>
         <div class="row row2">
-          <button class="col col1">4</button>
-          <button class="col col2">5</button>
-          <button class="col col3">6</button>
-          <button class="col col4">x</button>
+          <button id="num4" class="col colNumbers">4</button>
+          <button id="num5" class="col colNumbers">5</button>
+          <button id="num6" class="col colNumbers">6</button>
+          <button id="operMultiply" class="col col4">x</button>
         </div>
         <div class="row row3">
-          <button class="col col1">1</button>
-          <button class="col col2">2</button>
-          <button class="col col3">3</button>
-          <button class="col col4">+</button>
+          <button id="num1" class="col colNumbers">1</button>
+          <button id="num2" class="col colNumbers">2</button>
+          <button id="num3" class="col colNumbers">3</button>
+          <button id="operPlus" class="col col4">+</button>
         </div>
         <div class="row row4">
-          <button class="col col1">0</button>
-          <button class="col col2">.</button>
-          <button class="col col3">=</button>
-          <button class="col col4">-</button>
+          <button id="num0" class="col colNumbers">0</button>
+          <button id="numDot" class="col colNumbers">.</button>
+          <button id="equals" class="col colNumbers">=</button>
+          <button id="operMinus" class="col col4">-</button>
         </div>
       </section>
 
